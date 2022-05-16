@@ -3,8 +3,11 @@ Hello, this is XSS test
 Hackerone: 2BA38A7B398CFD9360591C3A1A25BA39 
 
 <script>
+alert('XSS test for hackerone');
 alert(document.domain);
 alert(document.cookie);
 </script>
 
+<a href="https://hackerone.com/2ba38a7b398cfd9360591c3a1a25ba?type=user">Hackerone Profile</a>
+  
 </html>
